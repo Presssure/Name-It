@@ -11,15 +11,36 @@
     transition:max-width 1s, min-width 1s;
 }
 
+@media(max-width:767px){
+    .headImageExpanded{
+        
+        min-width:230px;
+        max-width:250px;
+    }
+    .headImageContracted{
+        min-width:40px;
+        max-width:60px;   
+    }
+    .headTextExpanded{
+        font-size:36px;
+        color:red;
+    }
+    
+    .headTextContracted{
+        font-size:12px;
+        /* color:red; */
+    }
+}
 .headImageExpanded{
-    min-width:230px;
-    max-width:250px;
+        
+    min-width:460px;
+    max-width:500px;
+}
+.headImageContracted{
+    min-width:80px;
+    max-width:120px;   
 }
 
-.headImageContracted{
-    min-width:40px;
-    max-width:60px;
-}
 
 .headText{
     font-family: 'Hachi Maru Pop', cursive;
@@ -28,9 +49,9 @@
 }
 
 .headTextExpanded{
-    font-size:36px;
+    font-size:72px;
 }
 
 .headTextContracted{
-    font-size:12px;
+    font-size:24px;
 }
